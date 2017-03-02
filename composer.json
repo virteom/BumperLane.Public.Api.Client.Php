@@ -1,5 +1,5 @@
 {
-  "name": "virteom/BumperLane.Public.Api.Client",
+  "name": "virteom/bumperlane.public.api.client",
   "version": "0.1.5.0",
   "type": "library",
   "keywords": [ "api", "odata", "microservice", "service", "oauth", "virteom", "bumperlane", "client" ],

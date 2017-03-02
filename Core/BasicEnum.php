@@ -1,6 +1,6 @@
 <?php
 
-namespace Virteom\ApiClient\Php\Core;
+namespace BumperLane\Api\Client\Core;
 
 abstract class BasicEnum {
     private static $constCacheArray = NULL;

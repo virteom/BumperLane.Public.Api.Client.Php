@@ -1,6 +1,6 @@
 <?php
 
-namespace Virteom\ApiClient\Php;
+namespace BumperLane\Api\Client;
 include_once('includes.php');
 
 class ApiClient {

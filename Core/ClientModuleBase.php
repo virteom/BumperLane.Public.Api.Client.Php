@@ -1,6 +1,6 @@
 <?php
 
-namespace Virteom\ApiClient\Php;
+namespace BumperLane\Api\Client\Php;
 include_once(__DIR__ . '/../includes.php');
 
 class ClientModuleBase implements Core\IApiClient {

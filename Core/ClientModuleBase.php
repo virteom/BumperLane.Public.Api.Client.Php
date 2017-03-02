@@ -1,6 +1,6 @@
 <?php
 
-namespace BumperLane\Api\Client\Php;
+namespace BumperLane\Api\Client\Core;
 include_once(__DIR__ . '/../includes.php');
 
 class ClientModuleBase implements Core\IApiClient {

@@ -1,0 +1,21 @@
+{
+  "name": "virteom/BumperLane.Public.Api.Client",
+  "version": "0.1.5.0",
+  "type": "library",
+  "keywords": [ "api", "odata", "microservice", "service", "oauth", "virteom", "bumperlane", "client" ],
+  "homepage": "https://github.com/virteom/BumperLane.Public.Api.Client.Php",
+  "description": "BumperLane API Client Library",
+  "license": "MIT",
+  "require": {
+    "curiosity26/odataquery": "^1.0",
+    "guzzlehttp/guzzle": "^6.2",
+    "guzzlehttp/psr7": "^1.3",
+    "php": ">=5.6.0"
+  },
+  "autoload": {
+    "files": [ "includes.php" ],
+    "psr-4": {
+      "Virteom\\ApiClient\\Php\\": "/"
+    }
+  }
+}

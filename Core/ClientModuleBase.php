@@ -3,7 +3,7 @@
 namespace BumperLane\Api\Client\Core;
 include_once(__DIR__ . '/../includes.php');
 
-class ClientModuleBase implements Core\IApiClient {
+class ClientModuleBase implements IApiClient {
     public $BaseUrl = null;
     public $Api = null;
     public $ClientId = null;

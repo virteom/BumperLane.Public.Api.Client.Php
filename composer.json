@@ -14,7 +14,7 @@
   },
   "autoload": {
     "files": [ "includes.php" ],
-    "psr-4": {
+    "psr-7": {
       "BumperLane\\Api\\Client\\": "/"
     }
   }

@@ -6,6 +6,8 @@
   "homepage": "https://github.com/virteom/BumperLane.Public.Api.Client.Php",
   "description": "BumperLane API Client Library (should be used in conjunction with any ClientModule library. Hint search for your vendor and the keyword 'ClientModule')",
   "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
     "curiosity26/odataquery": "^1.0",
     "guzzlehttp/guzzle": "^6.2",

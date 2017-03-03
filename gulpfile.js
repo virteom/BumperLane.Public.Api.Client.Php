@@ -1,11 +1,14 @@
-﻿var gulp = require('gulp');
+﻿/// <binding BeforeBuild='version' />
+
+var gulp = require('gulp');
 var install = require("gulp-install");
 var tap = require("gulp-tap");
 var argv = require("yargs").argv;
 var xml2js = require('xml2js');
 var fs = require('fs');
 var path = require('path');
-
+var requireDir = require("require-dir");
+requireDir("Content/base_readonly/Virteom.CommonGulpTasks/gulp_tasks");
 require('es6-promise').polyfill();
 
 gulp.task('npm-install', function () {
@@ -31,8 +34,7 @@ gulp.task('run-projects-tasks', function () {
 });
 
 gulp.task('run-solution-version', function () {
-    argv = { taskName: 'version' };
-    gulp.start('run-projects-tasks');
+    gulp.start('version');
 });
 
 gulp.task('run-solution-copy-project-libs-to-plugin', function () {

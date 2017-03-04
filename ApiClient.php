@@ -5,7 +5,7 @@ include_once('includes.php');
 
 class ApiClient {
 
-    public static function Create($api, string $clientId = MODERN_API_CLIENT_ID, string $clientSecret = MODERN_API_CLIENT_SECRET, string $baseUrl = MODERN_API_SITE_URL){
+    public static function Create($api, $clientId = MODERN_API_CLIENT_ID, $clientSecret = MODERN_API_CLIENT_SECRET, $baseUrl = MODERN_API_SITE_URL){
         $apiObject = $api;
         if(is_string($api)){
             if(!class_exists($api)){

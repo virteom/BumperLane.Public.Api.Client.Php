@@ -6,4 +6,4 @@ if(!defined('INCLUDED_BUMPERLANE_PUBLIC_API_CLIENT')){
     include_once(__DIR__ . '/Core/ClientModuleBase.php');
     include_once(__DIR__ . '/ApiClient.php');
     include_once(__DIR__ . '/Core/ApiRequest.php');
-}
+}  

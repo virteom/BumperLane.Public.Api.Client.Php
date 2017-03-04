@@ -4,7 +4,6 @@ namespace BumperLane\Api\Client;
 include_once('includes.php');
 
 class ApiClient {
-
     public static function Create($api, $clientId = MODERN_API_CLIENT_ID, $clientSecret = MODERN_API_CLIENT_SECRET, $baseUrl = MODERN_API_SITE_URL){
         $apiObject = $api;
         if(is_string($api)){
@@ -24,8 +23,6 @@ class ApiClient {
         $apiObject->BaseUrl = $baseUrl;
         $apiObject->ClientId = $clientId;
         $apiObject->ClientSecret = $clientSecret;
-
         return $apiObject;
     }
-
 }       

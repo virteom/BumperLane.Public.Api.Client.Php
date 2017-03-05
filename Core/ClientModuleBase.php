@@ -22,6 +22,6 @@ class ClientModuleBase implements IApiClient {
     }
 
     public function BuildRequest($property){
-        return new Core\ApiRequest($this, $property);
+        return new ApiRequest($this, $property);
     }
 }       
